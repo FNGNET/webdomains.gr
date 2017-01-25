@@ -1,10 +1,8 @@
 <?
-$appURL="http://mediawiki.convergence.solutions/webdomains/";
 $domain =null;
 $errName=null;
 $whois=null;
 $status=null;
-session_start() ;
 
 //Check if is Get and validates the variables
 if (isset($_GET["domain"])) {
