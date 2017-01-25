@@ -8,7 +8,7 @@ $domain =null;
 $errName=null;
 $whois=null;
 $status=null;
-session_start() ;
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="el">
