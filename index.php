@@ -8,7 +8,7 @@ $domain =null;
 $errName=null;
 $whois=null;
 $status=null;
-//
+// this is test
 ?>
 <!DOCTYPE html>
 <html lang="el">
