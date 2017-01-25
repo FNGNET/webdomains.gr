@@ -1,10 +1,8 @@
 <?php
 session_start() ;
 require_once __DIR__ . '/assets/php-graph-sdk-5.0.0/src/Facebook/autoload.php';
-require_once __DIR__ . '/configuration/whmcs_configuration.php'; # this needs to be updated as per each site
-require_once __DIR__ . '/assets/services/domain_search.php';
 require_once __DIR__ . '/configuration/configuration.php'; # this needs to be updated as per each site
-require_once __DIR__ . '/assets/services/domain_search.php'
+require_once __DIR__ . '/services/domain_search.php';
 $domain =null;
 $errName=null;
 $whois=null;
